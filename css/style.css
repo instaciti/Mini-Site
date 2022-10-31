@@ -1,0 +1,804 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.topDetails {
+  background: linear-gradient(rgba(71, 11, 11, 0.8), rgba(240, 8, 8, 0.5)), url(https://c.ndtvimg.com/2022-04/fq5cs53_biryani-doubletree-by-hilton_625x300_12_April_22.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 20px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.topDetails h5 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.topDetails h5,
+h6 {
+  color: white;
+}
+
+.fastBox {
+
+  box-shadow: 1px 2px 15px #d7d7d7;
+
+}
+
+.logoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.viwBtn {
+  padding: 13px 23px;
+}
+
+.viewButton {
+  text-align: center;
+}
+
+.logoBox img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  object-fit: contain;
+  outline: 2px solid #f4f4f4;
+  border: 1px solid #ddd;
+  outline-offset: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.logoBox h6 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.logoBox h5 {
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.logoBox .logoWrapper {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+/* .logoBox h5::after{
+    position: absolute;
+    content: "";
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid #fff;
+} */
+
+
+
+.bannrSocialIcon {
+  margin-top: 20px;
+}
+
+.bannrSocialIcon ul {
+  display: flex;
+}
+
+.bannrSocialIcon ul li {
+  margin: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  flex-direction: row;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 3px 3px #876585; */
+  transition: .4s;
+  outline: 1px solid #d4d4d4;
+  outline-offset: 3px;
+}
+
+.bannrSocialIcon ul li:hover {
+  box-shadow: none;
+}
+
+.bannrSocialIcon ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloadBtn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-btn {
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 50px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1); */
+  outline: none;
+}
+
+.btn-14 {
+  /* background: #A65DA0; */
+  background: #FFFFFF;
+  z-index: 1;
+  font-weight: 600;
+  border: 2px solid #fc6076;
+  color: #fc6076;
+}
+
+.btn-14 svg {
+  background-color: #fc6076;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+}
+
+.btn-15 {
+  background: #00E676 !important;
+  border: none;
+  z-index: 1;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-15 svg {
+  background-color: initial;
+}
+
+/* .btn-14:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #F7764A;
+    background-image: linear-gradient(315deg, #F7764A 0%, #f5a68c 74%);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+                        7px 7px 20px 0px rgba(0,0,0,.1),
+                        4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  } */
+
+.btn-14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+
+.btn-14:active {
+  top: 2px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.fastBox {
+  position: relative;
+}
+
+.viewsButns {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.viewsButns .btn {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+
+
+
+/* contact box */
+.contactUssect {
+  text-align: center;
+  margin: 10px 0px;
+  padding: 20px 20px;
+}
+
+.contHead h3 {
+  font-size: 30px;
+  margin: 0;
+  position: relative;
+  font-weight: 700;
+}
+
+.contHead h3::before {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: #fc6076;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+}
+
+.contHead h3::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: #fc6076;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+
+.contHead {
+  color: #fc6076;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.inconText {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inconText p {
+  margin-bottom: 0px;
+}
+
+.inconText p a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.conIcons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  margin-right: 13px;
+  border-radius: 50%;
+}
+
+.conIcons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mp-4 {
+  padding-top: 8px;
+}
+
+.mxp {
+  margin-top: 5px;
+}
+
+.conShareBoxws {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.conShareBoxws input {
+  padding-left: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #DFDFDF;
+  outline: none;
+  position: relative;
+  width: 100%;
+
+}
+
+.inptDrop {
+  position: relative;
+}
+
+.dropAvslut {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background: none !important;
+}
+
+.dropAvslut .dropdown-toggle::after {
+  position: relative;
+  top: 5px;
+}
+
+.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.conShareBoxws {
+  margin-bottom: 15px;
+}
+
+.contSocials ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contSocials ul li {
+  width: 40px;
+  height: 40px;
+  background: #CA91F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  box-shadow: 3px 3px #876585;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.contSocials ul li:hover {
+  box-shadow: none;
+}
+
+.contSocials ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about section */
+
+.compData {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.compData .compLeft {
+  width: 50%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.compData .compRight {
+  width: 50%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.compLeft p,
+.compRight p {
+  margin: 0;
+}
+
+.abutListing {
+  padding-left: 20px;
+}
+
+.abutListing h6 {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.abutListing ul li {
+  list-style: circle;
+  text-align: left;
+  padding: 7px 0px;
+}
+
+.boldText {
+  margin-top: 40px;
+}
+
+.boldText p {
+  text-align: justify;
+}
+
+.templete1boX {
+  text-align: center;
+  padding: 10px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  border-radius: 8px;
+}
+
+.templete1boX h6 {
+  font-size: 20px;
+  padding: 15px 0px;
+  color: initial;
+}
+
+.downloadBtn {
+  margin-bottom: 20px;
+}
+
+.templete1Image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.templete1Image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.maximamWidth {
+  width: auto !important;
+}
+
+/* payments section */
+.companyTable h6 {
+  font-size: 25px;
+  text-align: left;
+  padding: 30px 6px;
+  color: #fc6076;
+}
+
+.paddislefts {
+  padding-left: 6px;
+}
+
+.companyTable p {
+  text-align: left;
+  color: #636363;
+}
+
+.quCodImg {
+  padding: 30px;
+  width: 100%;
+  padding-top: 0;
+}
+
+.quCodImg img {
+  width: 100%;
+}
+
+.imageFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: ;
+}
+
+.galryImgs {
+  width: 32%;
+}
+
+.galryImgs img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+.rows>.column {
+  padding: 0 8px;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.column img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 30%;
+  max-width: 700px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* enqriForm */
+.enqriForm {
+  width: 100%;
+}
+
+.enqriForm input {
+  width: 100%;
+  border: 1px solid #DFDFDF;
+  outline: none;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.inqriFlx {
+  display: flex;
+  gap: 15px;
+}
+
+.massages {
+  width: 100%;
+  border: 1px solid #DFDFDF;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+
+
+/* copy right */
+.footerCopy p {
+  margin: 0;
+  padding: 15px 0px;
+  color: #000000;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navTab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+#NavBar {
+  margin-top: 30px;
+  background: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  background-attachment: fixed;
+}
+
+.navTab a {
+  text-decoration: none;
+  color: #262336;
+  font-weight: 600;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:599px) {
+
+  .col-12 {
+    padding: 0px;
+  }
+
+  .txtModify {
+    display: none;
+    text-align: center;
+  }
+
+  .conShareBoxws {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .conShareBoxws input {
+    width: 100%;
+  }
+
+  .custom-btn {
+    width: 100%;
+  }
+
+  .contactUssect {
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+.NavBar {
+  border-top: 2px solid black;
+}
+
+
+
+.footerBand {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%), 0 0 40px rgb(255 251 251 / 10%) inset;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0;
+  list-style-type: none;
+  overflow: auto;
+  position: relative;
+  background: white;
+  /* border-radius: 20px 20px 0 0; */
+  display: flex;
+  background-image: linear-gradient(to right, white, white), linear-gradient(to right, white, white), linear-gradient(to right, rgba(0, 0, 20, .50), rgba(255, 255, 255, 0)), linear-gradient(to left, rgba(0, 0, 20, .50), rgba(255, 255, 255, 0));
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 20px 100%, 20px 100%, 20px 100%, 20px 100%;
+  background-attachment: local, local, scroll, scroll;
+}
